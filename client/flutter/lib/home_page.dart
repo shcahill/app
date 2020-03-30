@@ -54,7 +54,7 @@ class HomePage extends StatelessWidget {
                     MaterialPageRoute(builder: (c) => WhoMythBusters()),
                   ),
                   description:
-                      "Learn the facts about Coronavirus and how to prevent the spread",
+                      S.of(context).homePagePageButtonWHOMythBustersDescription,
                   centerItems: true,
                 ),
                 PageButton(
@@ -75,7 +75,7 @@ class HomePage extends StatelessWidget {
                   title: Text(S.of(context).homePagePageSliverListShareTheApp),
                   trailing: Icon(Icons.arrow_forward_ios),
                   onTap: () => Share.share(
-                      'Check out the official COVID-19 Guide App https://www.who.int/covid-19-app'),
+                      S.of(context).shareTheAppMessage),
                 ),
                 ListTile(
                   title: Text(S.of(context).homePagePageSliverListProvideFeedback),

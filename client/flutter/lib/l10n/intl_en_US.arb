@@ -1,11 +1,13 @@
 {
   "@section": "Common strings",
   "commonWorldHealthOrganization": "World Health Organization",
+  "shareTheAppMessage": "Check out the official COVID-19 Guide App https://www.who.int/covid-19-app",
   "@section": "Home Page",
   "homePagePageButtonProtectYourself": "Protect yourself",
   "homePagePageButtonLatestNumbers": "Latest \nNumbers",
   "homePagePageButtonYourQuestionsAnswered": "Your \nQuestions \nAnswered",
   "homePagePageButtonWHOMythBusters": "WHO Myth-busters",
+  "homePagePageButtonWHOMythBustersDescription": "Learn the facts about Coronavirus and how to prevent the spread",
   "homePagePageButtonTravelAdvice": "Travel Advice",
   "homePagePageSliverListShareTheApp": "Share The App",
   "homePagePageSliverListProvideFeedback": "Provide app feedback",
