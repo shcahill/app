@@ -1,3 +1,4 @@
+import 'package:WHOFlutter/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:share/share.dart';
 
@@ -33,7 +34,7 @@ class ListOfItemsPage extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.only(right: 20),
                     child: IconButton(
-                      onPressed: () => Share.share('Check out the official COVID-19 Guide App https://www.who.int/covid-19-app%27'),
+                      onPressed: () => Share.share(S.of(context).shareTheAppMessage),
                       icon: Icon(Icons.share, size: 22,)
                     ),
                   )),

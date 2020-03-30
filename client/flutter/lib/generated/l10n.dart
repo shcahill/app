@@ -38,6 +38,15 @@ class S {
     );
   }
 
+  String get shareTheAppMessage {
+    return Intl.message(
+      'Check out the official COVID-19 Guide App https://www.who.int/covid-19-app',
+      name: 'shareTheAppMessage',
+      desc: '',
+      args: [],
+    );
+  }
+
   String get homePagePageButtonProtectYourself {
     return Intl.message(
       'Protect yourself',
@@ -69,6 +78,15 @@ class S {
     return Intl.message(
       'WHO Myth-busters',
       name: 'homePagePageButtonWHOMythBusters',
+      desc: '',
+      args: [],
+    );
+  }
+
+  String get homePagePageButtonWHOMythBustersDescription {
+    return Intl.message(
+      'Learn the facts about Coronavirus and how to prevent the spread',
+      name: 'homePagePageButtonWHOMythBustersDescription',
       desc: '',
       args: [],
     );

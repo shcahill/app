@@ -1,11 +1,13 @@
 {
   "@section": "Common strings",
   "commonWorldHealthOrganization": "世界保健機関",
+  "shareTheAppMessage": "WHO公式コロナウィルスガイドアプリをチェック https://www.who.int/covid-19-app",
   "@section": "Home Page",
   "homePagePageButtonProtectYourself": "自身の身を守るために",
   "homePagePageButtonLatestNumbers": "最新の数値",
   "homePagePageButtonYourQuestionsAnswered": "疑問と回答",
   "homePagePageButtonWHOMythBusters": "デマに惑わされないために",
+  "homePagePageButtonWHOMythBustersDescription": "コロナウィルスについて正しく理解し、感染を防ぎましょう",
   "homePagePageButtonTravelAdvice": "お出かけの際のアドバイス",
   "homePagePageSliverListShareTheApp": "このアプリをシェアする",
   "homePagePageSliverListProvideFeedback": "このアプリに関するフィードバック",
